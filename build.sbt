@@ -27,5 +27,6 @@ lazy val dependencies = Seq(
   "org.slf4j" % "slf4j-nop" % "1.7.0",
   "ch.qos.logback" % "logback-classic" % "1.1.3",
   "org.webjars" %% "webjars-play" % "2.5.0",
-  "net.codingwell"  %%   "scala-guice"  %   "4.0.0"
+  "net.codingwell"  %%   "scala-guice"  %   "4.0.0",
+  "org.webjars" % "knockout" % "3.4.1"
 )

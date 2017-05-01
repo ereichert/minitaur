@@ -7,8 +7,7 @@ import play.api.mvc.Controller
 
 @Singleton
 class ImagesController @Inject() (
-    val messagesApi: MessagesApi,
-    implicit val wja: WebJarAssets
+    val messagesApi: MessagesApi
 ) extends Controller with I18nSupport {
 
 }

@@ -10,7 +10,6 @@ import utils.ConfigKeys
 @Singleton
 class IndexController @Inject() (
     val messagesApi: MessagesApi,
-    implicit val wja: WebJarAssets,
     configuration: Configuration
 ) extends Controller with I18nSupport {
 
